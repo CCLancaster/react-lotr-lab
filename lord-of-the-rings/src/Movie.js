@@ -49,6 +49,9 @@ class runTime extends Component {
 
 class Allmovies extends Component {
     render() {
+        movieList.map(movie)
+
+
         let movies = [];
         movieList.forEach(movie, index) {
             movies.push(
